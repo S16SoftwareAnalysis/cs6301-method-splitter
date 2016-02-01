@@ -19,6 +19,6 @@ Use of the library to split java files into methods.
 
 		// file path of the java file that is going to be parsed and split
 		String filePath = baseFolder + File.separator + "JabRefDesktop.java";
-		// split the java file and the a list of method
+		// split the java file and return the list of methods in the file
 		List<MethodDoc> methods = splitter.splitIntoMethods(new File(filePath));
 ```
